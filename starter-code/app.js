@@ -83,8 +83,12 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
+  var sum = testArray.reduce(function(a, b){
+    return a + b;
+}, 0);
 
 }
+
 
 // Here is the test for sumArray(); uncomment it to run it
 
